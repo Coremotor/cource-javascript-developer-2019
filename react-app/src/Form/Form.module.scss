@@ -1,0 +1,38 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+
+  background-color: lightgrey;
+
+  box-shadow: 0 10px 5px 1px rgba(0,0,0,0.25);
+
+  &__input-name {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+  }
+
+  &__text-field {
+    resize: none;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+  }
+
+  &__btn {
+    padding: 5px;
+    width: 30%;
+    justify-self: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 5px 5px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+  }
+}

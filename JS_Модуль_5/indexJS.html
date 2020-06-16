@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleJS.css">
+    <!-- <script src="scriptJS.js"></script> -->
+    <script src="lib.js"></script>
+    <script src="main.js"></script>
+    <title>Learn JS :) Модуль 5</title>
+  </head>
+
+  <body>
+    <h1 class="main-title">Изучаем JavaScript</h1>
+
+    <span class="task">Доработать домашнее задание к 3-му модулю (загадывание случайного числа от 1 до 1000) следующим образом:</span>
+
+    <ul class="task list">
+      <li>разделить программу на два файла: main.js (основной запускающий код программы) и lib.js (код модуля для загадывания чисел);</li>
+      <li>оформить код lib.js в виде модуля с использованием IIFE, который выносит в глобальную зону видимости (window) только одну функцию (например, start) для старта игры;</li>
+      <li>соответственно, main.js должен вызывать функцию start, которая объявлена в файле lib.js;</li>
+      <li>загаданное число и кол-во попыток пользователя должны храниться «в замыкании», то есть во внешней по отношению 
+        к функции start зоне видимости (чтобы к ним не было доступа из глобальной зоны видимости и их нельзя было легко поменять);</li>
+      <li>кол-во попыток пользователя должно быть ограничено: 10 (после этого выводится сообщение-предложение начать игру заново).</li>
+    </ul>
+
+    <span class="task">Подсказка: пригодятся стандартные JS-функции: prompt, alert, Math.random и parseInt.</span>
+
+    <span class="task">Дополнительно: при угадывании числа, предлагать запуск программы снова</span>
+
+    <span class="task">Можно применять цикл или рекурсию</span>
+  </body>
+</html>
+
+
+
+

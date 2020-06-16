@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.input-lang-choice {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.output-lang-choice {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.incoming-word {
+  padding: 10px;
+  min-width: 200px;
+  border: 1px solid black;
+  font-size: 24px;
+  text-align: center;
+}
+
+.resultTitle {
+  margin-bottom: 5px;
+}
+
+.translate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid black;
+  min-width: 200px;
+
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.task {
+  font-size: 20px;
+}
